@@ -1,12 +1,12 @@
 {
-  "name": "28-Stu_Mini-Project",
+  "name": "SocialNetworkAPI",
   "version": "1.0.1",
-  "description": "Mongoose back-end project - Main",
-  "main": "index.js",
+  "description": "Social Network API created with MongoDB",
+  "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index",
+    "start": "node server",
+    "dev": "nodemon server",
     "seed": "node utils/seed",
     "heroku-postbuild": "node utils/seed.js"
   },
